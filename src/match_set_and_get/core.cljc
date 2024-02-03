@@ -3,7 +3,7 @@
 (defn mutable-field?
   [field]
   (let [metadata (meta field)]
-    #?(:cljs (:mutable metadata) ;; CLJS doesn't give a f*** about anything
+    #?(:cljs (:mutable metadata)
        :clj (or (:unsynchronized-mutable metadata)
                 (:volatile-mutable metadata)
                 (:atomic-mutable metadata)
