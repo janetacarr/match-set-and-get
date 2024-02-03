@@ -6,7 +6,6 @@
     #?(:cljs (:mutable metadata)
        :clj (or (:unsynchronized-mutable metadata)
                 (:volatile-mutable metadata)
-                (:atomic-mutable metadata)
                 (:mutable metadata)))))
 
 (defmacro with-setters
