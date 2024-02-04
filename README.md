@@ -1,6 +1,5 @@
 # match-set-and-get
-
-![Clojars Project](https://img.shields.io/clojars/v/com.janetacarr/match-set-and-get.svg)
+[![Clojars Project](https://img.shields.io/clojars/v/com.janetacarr/match-set-and-get.svg)](https://clojars.org/com.janetacarr/match-set-and-get)
 
 Convenience macros for messing with Clojure type definitions.
 
