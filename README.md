@@ -1,5 +1,8 @@
 # match-set-and-get
-convenience macros for messing with Clojure type definitions.
+
+[![Clojars Project](https://img.shields.io/clojars/v/com.janetacarr/match-set-and-get.svg)]
+
+Convenience macros for messing with Clojure type definitions.
 
 ## Usage
 Currently there's only one macro here called `with-setters`.
